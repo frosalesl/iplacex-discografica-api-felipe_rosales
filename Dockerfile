@@ -20,7 +20,7 @@ RUN gradle clean bootJar -x test --no-daemon
 
 # ETAPA 2: RUN
 
-FROM openjdk:21
+FROM eclipse-temurin:21-jre-jammy
 
 WORKDIR /app
 
